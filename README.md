@@ -11,4 +11,4 @@
 
 - [End-to-end lane shape prediction with transformers](https://arxiv.org/pdf/2011.04233.pdf)
 - [Convolutional Recurrent Network for Road Boundary Extraction](https://arxiv.org/pdf/2012.12160.pdf) \[CVPR 2019\]
-- [End-to-end deep structured models for drawing crosswalks](ECCV 2018) \[ECCV 2018\]
+- [End-to-end deep structured models for drawing crosswalks](https://www.cs.toronto.edu/~urtasun/publications/liang_etal_eccv18.pdf) \[ECCV 2018\]
