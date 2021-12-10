@@ -18,9 +18,14 @@
 - [Multiscale vision transformers](https://arxiv.org/pdf/2104.11227.pdf) \[MViT\]
 - [Object-Region Video Transformers](https://arxiv.org/pdf/2110.06915v2.pdf)
 - [Training data-efficient image transformers & distillation through attention](https://arxiv.org/pdf/2012.12877.pdf)
+
+**Lane Line Detection**
+
+- [Convolutional Recurrent Network for Road Boundary Extraction](https://arxiv.org/pdf/2012.12160.pdf) \[CVPR 2019\]
+- [End-to-end deep structured models for drawing crosswalks](https://www.cs.toronto.edu/~urtasun/publications/liang_etal_eccv18.pdf) \[ECCV 2018\]
+
+**Temoral Modeling**
+
 - [FairMOT: On the Fairness of Detection and Re-Identification in Multiple Object Tracking](https://arxiv.org/pdf/2004.01888v6.pdf)
 - [TransMOT: Spatial-Temporal Graph Transformer for Multiple Object Tracking](https://arxiv.org/pdf/2104.00194v2.pdf)
 
-**Lane Line Detection**
-- [Convolutional Recurrent Network for Road Boundary Extraction](https://arxiv.org/pdf/2012.12160.pdf) \[CVPR 2019\]
-- [End-to-end deep structured models for drawing crosswalks](https://www.cs.toronto.edu/~urtasun/publications/liang_etal_eccv18.pdf) \[ECCV 2018\]
