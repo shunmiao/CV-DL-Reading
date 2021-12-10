@@ -1,5 +1,7 @@
 # [MotionFormer](https://arxiv.org/pdf/2106.05392.pdf)
 
+December 2021
+
 ### Overall Impression
 
 Transformer modules pool information globally from the entire spatial-temporal domain regardless of the spatial locality (considered as the most important inductive bias). The core idea of this paper is to modify the self-attention mechanism of the standard transformer to lend an inductive bias to the model. Given the theoratically high complexity in both space and time, this paper uses a bottleneck self-attention mechanism. 
