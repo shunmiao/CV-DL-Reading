@@ -20,8 +20,8 @@ One advantage of MViT is the computational efficiency comparing to standard tran
 
 
 
-<p align="center"> <img src="../resources/images/mvit_poolingattention.png" style="zoom:50%;" /> </p>
+<p align="center"> <img src="../resources/images/mvit_poolingattention.png" width="600" /> </p>
 
 
 
-<p align="center"> <img src="../resources/images/mvit_layers.png" style="zoom:50%;" /> </p> 
+<p align="center"> <img src="../resources/images/mvit_layers.png" width="400" /> </p> 
