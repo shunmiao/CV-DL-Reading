@@ -2,6 +2,7 @@
 
 ## 2021-12
 
+- [Multiscale vision transformers](https://arxiv.org/pdf/2104.11227.pdf) \[MViT\]\[[Paper Notes](paper_notes/MViT.md)\]
 - [Vivit: A video vision transformer](https://arxiv.org/pdf/2103.15691.pdf) \[ICCV 2021\]\[[Paper Notes](paper_notes/ViViT.md)\]
 - [Keeping your eye on the ball: Trajectory attention in video transformers](https://arxiv.org/pdf/2106.05392.pdf) \[MotionFormer, NIPS 2021\]\[[Paper Notes](paper_notes/MotionFormer.md)\]
 - [CondLaneNet: a Top-to-down Lane Detection Framework Based on Conditional Convolution](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_CondLaneNet_A_Top-To-Down_Lane_Detection_Framework_Based_on_Conditional_Convolution_ICCV_2021_paper.pdf) \[ICCV 2021\]\[[Paper Notes](paper_notes/CondLaneNet.md)\]
@@ -15,7 +16,6 @@
 
 - [End-to-end lane shape prediction with transformers](https://arxiv.org/pdf/2011.04233.pdf)
 - [Is space-time attention all you need for video understanding?](https://arxiv.org/pdf/2102.05095.pdf)
-- [Multiscale vision transformers](https://arxiv.org/pdf/2104.11227.pdf) \[MViT\]
 - [Object-Region Video Transformers](https://arxiv.org/pdf/2110.06915v2.pdf)
 - [Training data-efficient image transformers & distillation through attention](https://arxiv.org/pdf/2012.12877.pdf)
 
