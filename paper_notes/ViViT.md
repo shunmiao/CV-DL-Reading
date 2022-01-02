@@ -29,4 +29,4 @@ Given the promising results of Vision Transformer (ViT), it is natural to explor
 
 
 
-![image-20211209163908058](../paper_notes/vivit_overview.png)
+![image-20211209163908058](../resources/images/vivit_overview.png)

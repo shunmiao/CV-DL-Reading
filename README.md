@@ -2,11 +2,13 @@
 
 ## 2021-12
 
-- [Multiscale vision transformers](https://arxiv.org/pdf/2104.11227.pdf) \[MViT\]\[[Paper Notes](paper_notes/MViT.md)\]
-- [Vivit: A video vision transformer](https://arxiv.org/pdf/2103.15691.pdf) \[ICCV 2021\]\[[Paper Notes](paper_notes/ViViT.md)\]
-- [Keeping your eye on the ball: Trajectory attention in video transformers](https://arxiv.org/pdf/2106.05392.pdf) \[MotionFormer, NIPS 2021\]\[[Paper Notes](paper_notes/MotionFormer.md)\]
-- [CondLaneNet: a Top-to-down Lane Detection Framework Based on Conditional Convolution](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_CondLaneNet_A_Top-To-Down_Lane_Detection_Framework_Based_on_Conditional_Convolution_ICCV_2021_paper.pdf) \[ICCV 2021\]\[[Paper Notes](paper_notes/CondLaneNet.md)\]
-- [DAGMapper: Learning to map by discovering lane topology](https://arxiv.org/pdf/2012.12377.pdf) \[ICCV 2019\] \[[Paper Notes](paper_notes/DAGMapper.md)\]
+- [BEVDet: High-Performance Multi-Camera 3D Object Detection in Bird-Eye-View](https://arxiv.org/pdf/2112.11790.pdf) \[[Notes](paper_notes/BEVDet.md)\]
+- [VISOLO: Grid-Based Space-Time Aggregation for Efficient Online Video Instance Segmentation](https://arxiv.org/pdf/2112.04177v1.pdf)
+- [Multiscale vision transformers](https://arxiv.org/pdf/2104.11227.pdf) \[MViT\]\[[Notes](paper_notes/MViT.md)\]
+- [Vivit: A video vision transformer](https://arxiv.org/pdf/2103.15691.pdf) \[ICCV 2021\]\[[Notes](paper_notes/ViViT.md)\]
+- [Keeping your eye on the ball: Trajectory attention in video transformers](https://arxiv.org/pdf/2106.05392.pdf) \[MotionFormer, NIPS 2021\]\[[Notes](paper_notes/MotionFormer.md)\]
+- [CondLaneNet: a Top-to-down Lane Detection Framework Based on Conditional Convolution](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_CondLaneNet_A_Top-To-Down_Lane_Detection_Framework_Based_on_Conditional_Convolution_ICCV_2021_paper.pdf) \[ICCV 2021\]\[[Notes](paper_notes/CondLaneNet.md)\]
+- [DAGMapper: Learning to map by discovering lane topology](https://arxiv.org/pdf/2012.12377.pdf) \[ICCV 2019\] \[[Notes](paper_notes/DAGMapper.md)\]
 
 ## Papers to Read
 
