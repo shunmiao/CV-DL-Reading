@@ -2,8 +2,9 @@
 
 ## 2022-01
 
-- [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/pdf/2112.10155v1.pdf) \[TPLRNet\]
-- [Structured Bird’s-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/abs/2110.01997) \[STSU\]\[[Code](https://github.com/ybarancan/STSU)\]\[[Notes](paper_notes/STSU.md)\]
+- [Hierarchical recurrent attention networks for structured online maps](https://arxiv.org/abs/2012.12314) \[CVPR 2018\]
+- [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/pdf/2112.10155v1.pdf) \[TPLRNet\]\[[Notes](paper_notes/TRNet.md)\]
+- [Structured Bird’s-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/abs/2110.01997) \[STSU\]\[ICCV 2021\]\[[Code](https://github.com/ybarancan/STSU)\]\[[Notes](paper_notes/STSU.md)\]
 
 ## 2021-12
 
@@ -32,7 +33,6 @@
 
 - [Convolutional Recurrent Network for Road Boundary Extraction](https://arxiv.org/pdf/2012.12160.pdf) \[CVPR 2019\]
 - [End-to-end deep structured models for drawing crosswalks](https://www.cs.toronto.edu/~urtasun/publications/liang_etal_eccv18.pdf) \[ECCV 2018\]
-- [Hierarchical recurrent attention networks for structured online maps](https://arxiv.org/abs/2012.12314) \[CVPR 2018\]
 
 **Temoral Modeling**
 
