@@ -57,7 +57,5 @@
 - [PolyTransform: Deep Polygon Transformer for Instance Segmentation](https://openaccess.thecvf.com/content_CVPR_2020/papers/Liang_PolyTransform_Deep_Polygon_Transformer_for_Instance_Segmentation_CVPR_2020_paper.pdf)
 - [Neural Turtle Graphics for Modeling City Road Layouts](https://openaccess.thecvf.com/content_ICCV_2019/papers/Chu_Neural_Turtle_Graphics_for_Modeling_City_Road_Layouts_ICCV_2019_paper.pdf)
 - [Towards Reliable Evaluation of Algorithms for Road Network Reconstruction from Aerial Images](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730698.pdf)
-
 - [Topo-boundary: A Benchmark Dataset on Topological Road-boundary Detection Using Aerial Images for Autonomous Driving](https://arxiv.org/pdf/2103.17119.pdf)
 - [BoundaryNet: Extraction and Completion of Road Boundaries With Deep Learning Using Mobile Laser Scanning Point Clouds and Satellite Imagery](https://www.researchgate.net/profile/Lingfei-Ma/publication/349281135_BoundaryNet_Extraction_and_Completion_of_Road_Boundaries_With_Deep_Learning_Using_Mobile_Laser_Scanning_Point_Clouds_and_Satellite_Imagery/links/6032613092851c4ed5893d1f/BoundaryNet-Extraction-and-Completion-of-Road-Boundaries-With-Deep-Learning-Using-Mobile-Laser-Scanning-Point-Clouds-and-Satellite-Imagery.pdf)
-- 
