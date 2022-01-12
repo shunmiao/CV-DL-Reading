@@ -4,7 +4,6 @@
 
 - [Hierarchical recurrent attention networks for structured online maps](https://arxiv.org/abs/2012.12314) \[CVPR 2018\]
 - [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/pdf/2112.10155v1.pdf) \[TPLRNet\]\[[Notes](paper_notes/TRNet.md)\]
-- [Structured Bird’s-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/abs/2110.01997) \[STSU\]\[ICCV 2021\]\[[Code](https://github.com/ybarancan/STSU)\]\[[Notes](paper_notes/STSU.md)\]
 
 #### 2021-12
 
@@ -15,7 +14,7 @@
 - [Keeping your eye on the ball: Trajectory attention in video transformers](https://arxiv.org/pdf/2106.05392.pdf) \[MotionFormer, NIPS 2021\]\[[Notes](paper_notes/MotionFormer.md)\]
 - [CondLaneNet: a Top-to-down Lane Detection Framework Based on Conditional Convolution](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_CondLaneNet_A_Top-To-Down_Lane_Detection_Framework_Based_on_Conditional_Convolution_ICCV_2021_paper.pdf) \[ICCV 2021\]\[[Notes](paper_notes/CondLaneNet.md)\]
 - [DAGMapper: Learning to map by discovering lane topology](https://arxiv.org/pdf/2012.12377.pdf) \[ICCV 2019\] \[[Notes](paper_notes/DAGMapper.md)\]
-- [Structured Bird's-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/pdf/2110.01997.pdf) \[STSU\]
+- [Structured Bird’s-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/abs/2110.01997) \[STSU\]\[ICCV 2021\]\[[Code](https://github.com/ybarancan/STSU)\]\[[Notes](paper_notes/STSU.md)\]
 - [EL-GAN: Embedding Loss Driven Generative Adversarial Networks for Lane Detection](https://arxiv.org/pdf/1806.05525.pdf) \[EL-GAN\]
 
 ## Papers to Read
