@@ -2,7 +2,7 @@
 
 #### 2022-01
 
-- [Hierarchical recurrent attention networks for structured online maps](https://arxiv.org/abs/2012.12314) \[CVPR 2018\]
+- [Hierarchical recurrent attention networks for structured online maps](https://arxiv.org/abs/2012.12314) \[CVPR 2018\]\[[Note](paper_notes/HRANet.md)\]
 - [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/pdf/2112.10155v1.pdf) \[TPLRNet\]\[[Notes](paper_notes/TRNet.md)\]
 
 #### 2021-12
@@ -48,6 +48,7 @@
 - [ByteTrack: Multi-Object Tracking by Associating Every Detection Box](https://arxiv.org/pdf/2110.06864.pdf)
 - [FairMOT: On the Fairness of Detection and Re-Identification in Multiple Object Tracking](https://arxiv.org/pdf/2004.01888v6.pdf)
 - [TransMOT: Spatial-Temporal Graph Transformer for Multiple Object Tracking](https://arxiv.org/pdf/2104.00194v2.pdf)
+- [DanceTrack: Multi-Object Tracking in Uniform Appearance and Diverse Motion](https://arxiv.org/abs/2111.14690)
 
 #### Other
 

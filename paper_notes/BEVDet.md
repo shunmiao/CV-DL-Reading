@@ -16,8 +16,8 @@ This paper adopts the estiablished BEV object detection framework (i.e., image e
   - BEV encoder: ResNet + FPN-LSS.
   - Heads: 3D object detection head
 - Augmentation: 
-  - IDA: flipping, scaling and rorating.
-  - BDA: flipping, scaling and rotating.
+  - IDA: random flipping, random rotating with a range of [−5.4, 5.4], and random scaling with a range of [0.386, 0.55].
+  - BDA:  random flipping, random rotating with a range of [−22.5, 22.5], and random scaling with a range of [0.95, 1.05].
 
 ### Notes
 
