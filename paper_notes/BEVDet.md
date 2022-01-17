@@ -2,8 +2,6 @@
 
 December 2021
 
-
-
 ### Overall Impression
 
 This paper adopts the estiablished BEV object detection framework (i.e., image encoder, view transformer, BEV encoder and head) and analyzes a few difference choices of these modules. It emphasizes that since the view transformer isolates the two view spaces (image and BEV), augmentations in the image space do not affect the BEV space. Hence augmentations in both the image space and the BEV space can be applied. The takeways of this study are: 1) SwinTransformer performs better than ResNet, 2) larger image size can improve mAP, 3) Employing both Image-view-space Data Augmentation (IDA) and BEV-space Data Augmentation (BDA) help to imporve performance.

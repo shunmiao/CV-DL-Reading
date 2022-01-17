@@ -2,7 +2,14 @@
 
 #### 2022-01
 
-- [Hierarchical recurrent attention networks for structured online maps](https://arxiv.org/abs/2012.12314) \[CVPR 2018\]\[[Note](paper_notes/HRANet.md)\]
+- [Projecting Your View Attentively: Monocular Road Scene Layout Estimation via Cross-view Transformation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Projecting_Your_View_Attentively_Monocular_Road_Scene_Layout_Estimation_via_CVPR_2021_paper.pdf) \[PYVA\]\[CVPR 2021\]\[[Notes](paper_notes/Cam2BEV.md)\]
+- [NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/pdf/2109.04456.pdf) \[ICCV 2021\]\[[Notes](paper_notes/Cam2BEV.md)\]
+- [Predicting Semantic Map Representations from Images using Pyramid Occupancy Networks](https://arxiv.org/pdf/2003.13402.pdf) \[PryOccNet\]\[CVPR 2020\]\[[Notes](paper_notes/Cam2BEV.md)\]
+- [Translating Images into Maps](https://arxiv.org/pdf/2110.00966.pdf) \[[Notes](paper_notes/Cam2BEV.md)\]
+- [Cross-view Semantic Segmentation for Sensing Surroundings](https://arxiv.org/pdf/1906.03560.pdf) \[VPN\]\[[Notes](paper_notes/Cam2BEV.md)\]
+- [Bird’s-Eye-View Panoptic Segmentation Using Monocular Frontal View Images](https://arxiv.org/pdf/2108.03227.pdf) \[[Notes](paper_notes/Cam2BEV.md)\]
+- [Convolutional Recurrent Network for Road Boundary Extraction](https://arxiv.org/pdf/2012.12160.pdf) \[CVPR 2019\]\[[Notes](paper_notes/CRRE.md)\]
+- [Hierarchical recurrent attention networks for structured online maps](https://arxiv.org/abs/2012.12314) \[CVPR 2018\]\[[Notes](paper_notes/HRANet.md)\]
 - [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/pdf/2112.10155v1.pdf) \[TPLRNet\]\[[Notes](paper_notes/TRNet.md)\]
 
 #### 2021-12
@@ -11,7 +18,7 @@
 - [VISOLO: Grid-Based Space-Time Aggregation for Efficient Online Video Instance Segmentation](https://arxiv.org/pdf/2112.04177v1.pdf)
 - [Multiscale vision transformers](https://arxiv.org/pdf/2104.11227.pdf) \[MViT\]\[[Notes](paper_notes/MViT.md)\]
 - [Vivit: A video vision transformer](https://arxiv.org/pdf/2103.15691.pdf) \[ICCV 2021\]\[[Notes](paper_notes/ViViT.md)\]
-- [Keeping your eye on the ball: Trajectory attention in video transformers](https://arxiv.org/pdf/2106.05392.pdf) \[MotionFormer, NIPS 2021\]\[[Notes](paper_notes/MotionFormer.md)\]
+- [Keeping your eye on the ball: Trajectory attention in video transformers](https://arxiv.org/pdf/2106.05392.pdf) \[MotionFormer][NIPS 2021\]\[[Notes](paper_notes/MotionFormer.md)\]
 - [CondLaneNet: a Top-to-down Lane Detection Framework Based on Conditional Convolution](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_CondLaneNet_A_Top-To-Down_Lane_Detection_Framework_Based_on_Conditional_Convolution_ICCV_2021_paper.pdf) \[ICCV 2021\]\[[Notes](paper_notes/CondLaneNet.md)\]
 - [DAGMapper: Learning to map by discovering lane topology](https://arxiv.org/pdf/2012.12377.pdf) \[ICCV 2019\] \[[Notes](paper_notes/DAGMapper.md)\]
 - [Structured Bird’s-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/abs/2110.01997) \[STSU\]\[ICCV 2021\]\[[Code](https://github.com/ybarancan/STSU)\]\[[Notes](paper_notes/STSU.md)\]
@@ -32,7 +39,6 @@
 
 #### Lane Line Detection
 
-- [Convolutional Recurrent Network for Road Boundary Extraction](https://arxiv.org/pdf/2012.12160.pdf) \[CVPR 2019\]
 - [End-to-end deep structured models for drawing crosswalks](https://www.cs.toronto.edu/~urtasun/publications/liang_etal_eccv18.pdf) \[ECCV 2018\]
 - [Lane Line Detection Based on Object Feature Distillation](https://www.mdpi.com/2079-9292/10/9/1102)
 - [Hierarchical Road Topology Learning for Urban Map-less Driving](https://arxiv.org/pdf/2104.00084.pdf)

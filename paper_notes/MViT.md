@@ -2,8 +2,6 @@
 
 December 2021
 
-
-
 ### Overall Impression
 
 Convolutional Neural Networks typically gradually reduce the spatial resolution (and increase the number of channels) as the layer goes deeper. Vision transformers, however, do not have this "multi-scale" behavior and the number of tokens are usually kept the same throughout the network. To mimick the multi-scale behavior, MViT introduces pooling into the attention module, a.k.a. **Multi Head Pooling Attention (MHPA)**. The keys, values and queries are pooled to reduce the spatial (and temporal for video) resolutions before the attention calculation and application to produce features with a reduced size. In MViT, MHPA is applied to have reduce spatial/temporal resolution (and increase channel) as the layers go deeper. 

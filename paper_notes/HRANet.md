@@ -2,7 +2,8 @@
 
 Jan 2022
 
-*TL;DR* 
+*TL;DR* - Use polyline-RNN (conv-LSTM) to produce road boundary from LIDAR sweep.
+
 
 ### Key Ideas
 
