@@ -15,8 +15,8 @@
 - [FairMOT: On the Fairness of Detection and Re-Identification in Multiple Object Tracking](https://arxiv.org/pdf/2004.01888v6.pdf)
 - [TransMOT: Spatial-Temporal Graph Transformer for Multiple Object Tracking](https://arxiv.org/pdf/2104.00194v2.pdf)
 - [DanceTrack: Multi-Object Tracking in Uniform Appearance and Diverse Motion](https://arxiv.org/pdf/2111.14690.pdf)
-- [CP-loss: Connectivity-preserving Loss for Road Curb Detection in Autonomous Driving with Aerial Images](https://arxiv.org/pdf/2107.11920.pdf)  \[[Notes](paper_notes/2022-02.md)\]
-- [Understanding Bird’s-Eye View of Road Semantics using an Onboard Camera](https://arxiv.org/pdf/2012.03040.pdf) #ETH \[[Notes](paper_notes/2022-02.md)\]
+- [CP-loss: Connectivity-preserving Loss for Road Curb Detection in Autonomous Driving with Aerial Images](https://arxiv.org/pdf/2107.11920.pdf)  \[[Notes](paper_notes/LLD.md)\]
+- [Understanding Bird’s-Eye View of Road Semantics using an Onboard Camera](https://arxiv.org/pdf/2012.03040.pdf) #ETH \[[Notes](paper_notes/Cam2BEV.md)\]
 
 #### 2022-01
 
