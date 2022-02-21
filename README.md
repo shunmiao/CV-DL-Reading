@@ -6,14 +6,17 @@
 - [Lane lane detection and map reconstruction methods](paper_notes/LLD.md)
 - [Multi object tracking methods](paper_notes/MOT.md)
 - [Image/video transformer methods and applications](paper_notes/Transformer.md)
+- [Landmark/polyline detection methods](paper_notes/LMK.md)
 
 ## Paper Finished
 
 #### 2022-02
 
+- [MonoLayout: Amodal scene layout from a single image](https://arxiv.org/pdf/2002.08394.pdf) \[[Notes](paper_notes/GAN.md)\]
+- [Is 2D Heatmap Even Necessary for Human Pose Estimation?](https://arxiv.org/pdf/2107.03332.pdf) \[[Notes](paper_notes/LMK.md)\]
 - [ByteTrack: Multi-Object Tracking by Associating Every Detection Box](https://arxiv.org/pdf/2110.06864.pdf)
 - [FairMOT: On the Fairness of Detection and Re-Identification in Multiple Object Tracking](https://arxiv.org/pdf/2004.01888v6.pdf)
-- [TransMOT: Spatial-Temporal Graph Transformer for Multiple Object Tracking](https://arxiv.org/pdf/2104.00194v2.pdf)
+- [TransMOT: Spatial-Temporal Graph Transformer for Multiple Object Tracking](https://arxiv.org/pdf/2104.00194v2.pdf) \[[Notes](paper_notes/MOT.md)\]
 - [DanceTrack: Multi-Object Tracking in Uniform Appearance and Diverse Motion](https://arxiv.org/pdf/2111.14690.pdf)
 - [CP-loss: Connectivity-preserving Loss for Road Curb Detection in Autonomous Driving with Aerial Images](https://arxiv.org/pdf/2107.11920.pdf)  \[[Notes](paper_notes/LLD.md)\]
 - [Understanding Bird’s-Eye View of Road Semantics using an Onboard Camera](https://arxiv.org/pdf/2012.03040.pdf) #ETH \[[Notes](paper_notes/Cam2BEV.md)\]

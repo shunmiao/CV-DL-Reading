@@ -1,4 +1,4 @@
-# Papers on Lane Line Detection and Map Reconstruction
+# Papers on Lane Line Detection
 
 ### [Hierarchical recurrent attention networks for structured online maps](https://arxiv.org/abs/2012.12314) 
 
@@ -17,6 +17,8 @@
   - Polyline loss (lane tracing): the point-to-curve distance between the predicted polyline and the ground truth polyline. 
 
 <p align="center"> <img src="../resources/images/hranet_system.png" width="1024" /> </p>
+
+
 
 ### [Convolutional Recurrent Network for Road Boundary Extraction](https://arxiv.org/pdf/2012.12160.pdf) \[CVPR 2019\]
 
@@ -44,6 +46,8 @@ This is an extension of the same authors’ prior work, HRANet. The main differe
 
 <p align="center"> <img src="../resources/images/crre_system.jpg" width="1024" /> </p>
 
+
+
 ### [Structured Bird’s-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/abs/2110.01997) 
 
 #### Overall Impression
@@ -70,6 +74,8 @@ The core idea of STSU is similar to DETR3 D, i.e., using trainable queries to r
     - **Refinement net **: outputs segmentation of the object bounding box in the RoI
 - Loss: Detection results (both centerlines and objects) are matched with the ground truth using Hungarian matching. Training loss is calculated on matched objected as $L_{CE}+\lambda L_1$, where the first term is classification loss and the second term is the loss of the parameters (Bézier control points or bounding boxes). 
 - Ground truth: The definition of centerline instances is not clear. Need to look into the [code](https://github.com/ybarancan/STSU) for more details. 
+
+
 
 ### [Topology Preserving Local Road Network Estimation from Single Onboard Camera Image](https://arxiv.org/pdf/2112.10155v1.pdf)
 
@@ -107,6 +113,8 @@ This paper is a follow up work of STSU (see my previous [notes](STSU.md)). The m
     - BCE lsos for centerline and minimal cycle probabilities.
     - BCE loss for membership of minimal covers.
 
+
+
 ### [CondLaneNet: a Top-to-down Lane Detection Framework Based on Conditional Convolution](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_CondLaneNet_A_Top-To-Down_Lane_Detection_Framework_Based_on_Conditional_Convolution_ICCV_2021_paper.pdf) 
 
 <p align="center"> <img src="../resources/images/condlanenet_overview.png" width="640" /> </p>
@@ -140,6 +148,8 @@ This paper is a follow up work of STSU (see my previous [notes](STSU.md)). The m
 <p align="center"> <img src="../resources/images/condlanenet_system.png" width="1024" /> </p>
 
 <p align="center"> <img src="../resources/images/condlanenet_lstm.png" width="512" /> </p>
+
+
 
 ### [DAGMapper: Learning to Map by Discovering Lane Topology](https://arxiv.org/pdf/2012.12377.pdf)
 
@@ -178,12 +188,12 @@ The most interesting part of this paper is the use of RNN to spit out graph vert
 
 *TL;DR* — One multi-task network that predicts the camera pose and 3D lane line.
 
-#### Summary:
+#### Key ideas:
 
 1. 3D lane line detection problem is formulated as a two tasks: 1) estimation of the camera height $h$ and camera pitch $\phi$, 2) estimation of the 3D lane line $[X, Y, Z]$ as a polynomial function. The relation between 3D lane line points and points on flat ground-plane is shown in the figure below.
 2. In stage 1, the model estiamtes the camera pose, i.e., height and pitch in one branch and a 3D lane line in another branch. The 3D lane line is mapped to the image plane and the flat ground plane using the estimated extrinsics for loss calculation.
-3. In stage 2, the model takes the BEV image projected using the extrinsics estiamted in stage 1 as input, and output the 3D lane lines.
-4. Trainin losses: 
+3. In stage 2, the model takes the BEV image projected using the extrinsics estiamted in stage 1 as input, and outputs the 3D lane lines.
+4. Training losses: 
    1. Camera pose regression loss
    2. 3D lane fitting loss with Hungarian matching
    3. Flat ground plane lane fitting loss
@@ -199,7 +209,7 @@ The most interesting part of this paper is the use of RNN to spit out graph vert
 
 *TL;DR* — A loss designed for line segmentation that imposes skeleton distance-based weighting of Cross Entropy and DICE losses. 
 
-#### Summary:
+#### Key ideas:
 
 1. Skeletonization is applied on both the ground truth and predicted masks. For every pixel, the distane to these two skeletons is calculated and used as a weight for loss calculation.
 2. For foreground pixels, the minimum distance to the ground truth skeleton is caculated (shouldn't this distance be always zero?). Gaussian of the distance is added o the focal loss weight.
