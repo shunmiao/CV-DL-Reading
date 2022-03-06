@@ -190,10 +190,10 @@ The most interesting part of this paper is the use of RNN to spit out graph vert
 
 #### Key ideas:
 
-1. 3D lane line detection problem is formulated as a two tasks: 1) estimation of the camera height $h$ and camera pitch $\phi$, 2) estimation of the 3D lane line $[X, Y, Z]$ as a polynomial function. The relation between 3D lane line points and points on flat ground-plane is shown in the figure below.
-2. In stage 1, the model estiamtes the camera pose, i.e., height and pitch in one branch and a 3D lane line in another branch. The 3D lane line is mapped to the image plane and the flat ground plane using the estimated extrinsics for loss calculation.
-3. In stage 2, the model takes the BEV image projected using the extrinsics estiamted in stage 1 as input, and outputs the 3D lane lines.
-4. Training losses: 
+- 3D lane line detection problem is formulated as a two tasks: 1) estimation of the camera height $h$ and camera pitch $\phi$, 2) estimation of the 3D lane line $[X, Y, Z]$ as a polynomial function. The relation between 3D lane line points and points on flat ground-plane is shown in the figure below.
+- In stage 1, the model estiamtes the camera pose, i.e., height and pitch in one branch and a 3D lane line in another branch. The 3D lane line is mapped to the image plane and the flat ground plane using the estimated extrinsics for loss calculation.
+- In stage 2, the model takes the BEV image projected using the extrinsics estiamted in stage 1 as input, and outputs the 3D lane lines.
+- Training losses: 
    1. Camera pose regression loss
    2. 3D lane fitting loss with Hungarian matching
    3. Flat ground plane lane fitting loss
@@ -211,10 +211,29 @@ The most interesting part of this paper is the use of RNN to spit out graph vert
 
 #### Key ideas:
 
-1. Skeletonization is applied on both the ground truth and predicted masks. For every pixel, the distane to these two skeletons is calculated and used as a weight for loss calculation.
-2. For foreground pixels, the minimum distance to the ground truth skeleton is caculated (shouldn't this distance be always zero?). Gaussian of the distance is added o the focal loss weight.
-3. On background pixels, the minimum distance to both the ground truth and predicted skeletons is calculated. Gaussian of the distance is added o the focal loss weight.
-4. On all pixels, the DICE loss is weighted by a factor negatively correlated with the minimum distance to the ground truth and predicted skeletons.
+- Skeletonization is applied on both the ground truth and predicted masks. For every pixel, the distane to these two skeletons is calculated and used as a weight for loss calculation.
+- For foreground pixels, the minimum distance to the ground truth skeleton is caculated (shouldn't this distance be always zero?). Gaussian of the distance is added o the focal loss weight.
+- On background pixels, the minimum distance to both the ground truth and predicted skeletons is calculated. Gaussian of the distance is added o the focal loss weight.
+- On all pixels, the DICE loss is weighted by a factor negatively correlated with the minimum distance to the ground truth and predicted skeletons.
 
 <p align="center"> <img src="../resources/images/cploss_system.png" width="1024" /> </p>
 
+### Towards End-to-End Lane Detection: an Instance Segmentation Approach \[2DLaneNet\]
+
+*TL;DR* — Instance lane line segmentation using instance embedding learning + Homographic matrix learning trained using least square loss between detected lane line and its polynomial fitting (fitted in the BEV space and projected back to the camera)
+
+### 3D-LaneNet: End-to-End 3D Multiple Lane Detection
+
+*TL;DR* — Anchor-based object detection for 3D LLD with a dual-pathway backbone. The backbone network encodes the both the camera image and top-view image (produced by IPM) and combines features from the the pathways to produce the BEV feature, whre each column represents one anchor.
+
+#### Key ideas:
+
+-  The backbone network has two pathways:
+  - **Image-view pathway**: the camera image is encoded to feature maps. The feature maps are then projected to the BEV space by IPM
+  - **Top-view pathway**: the camera image is projected to the BEV space first and then encoded to produce BEV feature maps. The projected image-view features are injected into the top-view pathway at multiple levels. 
+- Anchor-based LLD:
+  - Each column in the BEV feature represents one anchor, which is associated with the lane delimiters or centerline that are close to the column in the lateral direction (at the longtitude location $Y_{ref}$).
+  - Each anchor outputs two delimiters and one centerline with existance status. Two delimiters are predicted to handle split/merge.
+  - The lane delimiters and centerlines are represented by 1) relative lateral locations to the anchor and 2) heights at fixed longitudinal locations, i.e., $y(x)$ and $z(x)$ in the rig cooridnate system. 
+
+<p align="center"> <img src="../resources/images/3dlanenet_system.png" width="1024" /> </p>

@@ -8,10 +8,26 @@
 - [Image/video transformer methods and applications](paper_notes/Transformer.md)
 - [Landmark/polyline detection methods](paper_notes/LMK.md)
 
-## Paper Finished
+## Reading List
+
+#### 2022-03
+
+- [Rethinking and Improving Relative Position Encoding for Vision Transformer](https://arxiv.org/pdf/2107.14222.pdf)
+- [Semantic Instance Segmentation with a Discriminative Loss Function](https://arxiv.org/pdf/1708.02551.pdf)
+- Semantic Instance Segmentation for Autonomous Driving
+- [3D-LaneNet: End-to-End 3D Multiple Lane Detection](https://arxiv.org/pdf/1811.10203.pdf) \[[Notes](paper_notes/LLD.md)\]
+- [Towards End-to-End Lane Detection: an Instance Segmentation Approach](https://arxiv.org/pdf/1802.05591.pdf) \[2DLaneNet\]\[[Notes](paper_notes/LLD.md)\]
+- [Paying Attention to Video Object Pattern Understanding](https://ieeexplore.ieee.org/document/8957473)
+- [UnOVOST: Unsupervised Offline Video Object Segmentation and Tracking](https://arxiv.org/pdf/2001.05425.pdf)
+- [Zero-Shot Video Object Segmentation with Co-Attention Siamese Networks](https://pubmed.ncbi.nlm.nih.gov/33232224/)
+- [See More, Know More: Unsupervised Video Object Segmentation with Co-Attention Siamese Networks](https://arxiv.org/pdf/2001.06810.pdf)
+- [Zero-Shot Video Object Segmentation via Attentive Graph Neural Networks](https://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Zero-Shot_Video_Object_Segmentation_via_Attentive_Graph_Neural_Networks_ICCV_2019_paper.pdf)
+- [YouTube-VOS: Sequence-to-sequence video object segmentation](https://arxiv.org/pdf/1809.00461.pdf)
+- [RVOS: End-to-End Recurrent Network for Video Object Segmentation](https://openaccess.thecvf.com/content_CVPR_2019/papers/Ventura_RVOS_End-To-End_Recurrent_Network_for_Video_Object_Segmentation_CVPR_2019_paper.pdf)
 
 #### 2022-02
 
+- [A Survey on Deep Learning Technique for Video Segmentation](https://arxiv.org/pdf/2107.01153.pdf)
 - [MonoLayout: Amodal scene layout from a single image](https://arxiv.org/pdf/2002.08394.pdf) \[[Notes](paper_notes/GAN.md)\]
 - [Is 2D Heatmap Even Necessary for Human Pose Estimation?](https://arxiv.org/pdf/2107.03332.pdf) \[[Notes](paper_notes/LMK.md)\]
 - [ByteTrack: Multi-Object Tracking by Associating Every Detection Box](https://arxiv.org/pdf/2110.06864.pdf)
